@@ -24,10 +24,10 @@ class Wizard:
         print("------------>")
         self.dodge_pt -= 100
     def wizardAttack(self, lp_dragon):
-        print("Attaque de dragon")
+        print("Attaque du sorcier")
         return lp_dragon - self.atk_pt
     def showStat(self):
-        print("-------Stats----------")
+        print("-------Wizard Stats----------")
         print("Life point " + str(self.life_pt))
         print("Mana point " + str(self.mana_pt))
         print("Attack point " + str(self.atk_pt))
