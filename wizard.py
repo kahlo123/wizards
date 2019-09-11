@@ -11,6 +11,7 @@ class Wizard:
         print("Prendre une potion")
         print("------------>")
         self.life_pt+=1000
+        self.showStat()
 
     def launchSpell(self):
         print("------------>")
@@ -25,6 +26,7 @@ class Wizard:
         self.dodge_pt -= 100
     def wizardAttack(self, lp_dragon):
         print("Attaque du sorcier")
+        self.showStat()
         return lp_dragon - self.atk_pt
     def showStat(self):
         print("-------Wizard Stats----------")
