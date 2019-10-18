@@ -1,6 +1,7 @@
 import random
 class Wizard:
-    def __init__(self, life_pt, mana_pt, atk_pt,def_pt,dodge_pt, potion):
+    def __init__(self,name, life_pt, mana_pt, atk_pt,def_pt,dodge_pt, potion):
+        self.name = name
         self.life_pt = life_pt
         self.mana_pt = mana_pt
         self.atk_pt = atk_pt
